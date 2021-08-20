@@ -35,7 +35,7 @@ curl -sLO ${script_url}firmware.sh
 rc0=$?
 curl -sLO ${script_url}functions.sh
 rc1=$?
-curl -sLO ${script_url}sources.sh
+curl -sLO https://raw.githubusercontent.com/waldoxhm/scripts/master/sources.sh
 rc2=$?
 if [[ $rc0 -ne 0 || $rc1 -ne 0 || $rc2 -ne 0 ]]; then
 	echo -e "Error downloading one or more required files; cannot continue"
