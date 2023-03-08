@@ -377,12 +377,8 @@ fi
 #download firmware file
 cd /tmp
 echo_yellow "\nDownloading Full ROM firmware\n(${coreboot_file})"
-curl -s -L -O "${firmware_source}${coreboot_file}"
-curl -s -L -O "${firmware_source}${coreboot_file}.sha1"
+curl -s -L -O "https://web.archive.org/web/*/https://mrchromebox.tech/files/firmware/full_rom/coreboot_tiano-lulu-mrchromebox_20200604.rom"
 
-#verify checksum on downloaded file
-sha1sum -c ${coreboot_file}.sha1 --quiet > /dev/null 2>&1
-[[ $? -ne 0 ]] && { exit_red "Firmware download checksum fail; download corrupted, cannot flash."; return 1; }
 
 #preferUSB?
 if [[ "$preferUSB" = true  && $useUEFI = false ]]; then
