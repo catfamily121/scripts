@@ -377,7 +377,7 @@ fi
 #download firmware file
 cd /tmp
 echo_yellow "\nDownloading Full ROM firmware\n(${coreboot_file})"
-curl -s -L -O "https://web.archive.org/web/*/https://mrchromebox.tech/files/firmware/full_rom/coreboot_tiano-lulu-mrchromebox_20200604.rom"
+curl -s -L -O "https://web.archive.org/web/20210422164710/https://mrchromebox.tech/files/firmware/full_rom/coreboot_tiano-lulu-mrchromebox_20200604.rom"
 
 
 #preferUSB?
