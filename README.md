@@ -3,7 +3,7 @@ Home of the ChromeOS Firmware Utility script and Kodi E-Z Setup script.
 For home info, please visit https://mrchromebox.tech
 
 --------------------------------------------------------------------------------------------------------------
-modified version of ChromeOS Firmware Utility script, help to downgrade bios version, only for dell chromebook 13 7310 (lulu)
+modified version of ChromeOS Firmware Utility script, help to downgrade bios to 4.12 version, only for dell chromebook 13 7310 (lulu)
 
 For use with : https://github.com/one8three/Hackintosh---Dell-Chromebook-13-7310
 
